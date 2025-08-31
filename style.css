@@ -1,0 +1,143 @@
+body{
+    background-color: rgb(103, 157, 177);
+    justify-self: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.mee{
+    border-radius: 10%;
+    border: 3px solid;
+    box-shadow: 5px 5px;
+}
+
+.container{
+    width: 1250px;
+    height: fit-content;
+    margin: 20px;
+    border: 4px solid;
+    border-color: black;
+    border-radius: 4%;
+    background-color: rgb(250, 253, 252);
+    box-shadow: 5px 5px;
+}
+
+.header{
+    display: flex;
+    padding-left: 30px;
+    padding-top: 20px;
+    gap: 270px;
+}
+
+.aboutme{
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 40px;
+    padding-left: 30px;
+}
+
+.project2,.project4{
+    display: flex;
+    padding-top: 60px;
+    margin-left: 100px;
+    gap: 0px;
+}
+
+.project1,.project3,.project5 {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 60px;
+    margin-left: 100px;
+    gap: 100px;
+}
+
+.para{
+    font-weight: 400;
+    font-size: 125%;
+    text-align: center;
+}
+
+.ij{
+    font-weight: 500;
+    font-size: 300%;
+    text-align: center;
+}
+
+.lead {
+    font-weight: 400;
+}
+
+.ii{
+    border-radius: 20%;
+}
+.im{
+    border-radius: 10%;
+    border: 3px black solid;
+}
+
+.spec:hover{
+    margin-top: 40px;
+    padding-left: 40px;
+    transform: scale(1.01);
+    cursor: pointer;
+}
+
+.spe{
+    margin-top: 90px;
+}
+
+.card-body:hover{
+    text-align: center;
+    font-weight: 500;
+    font-size: larger;
+}
+
+.spec{
+    padding-left: 90px;
+    width: 380px;
+}
+
+.contact{
+    margin-top: 100px;
+}
+
+.info{
+    display: flex;
+    padding-top: 50px;
+    justify-content: center;
+    gap: 100px;
+}
+
+.footer{
+    margin-top: 120px;
+    font-weight: 700;
+}
+
+.fea{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    gap: 50px;
+    text-align: center;
+}
+
+.box{
+    border: 3px solid;
+    border-radius: 3%;
+    height: 300px;
+    width: 230px;
+    box-shadow: 3px 3px;
+    background-color: rgb(213, 178, 178);
+}
+
+.gg{
+    text-align: center;
+    margin-top: 70px;
+    padding-bottom: 30px;
+}
+
+.box p{
+    font-size: larger;
+}
